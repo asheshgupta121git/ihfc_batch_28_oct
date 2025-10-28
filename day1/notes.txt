@@ -1,0 +1,20 @@
+<></> --> tags 
+<> --> open tag
+</> --> close tag
+
+note -> we self closing tag also.
+
+<> content </>  -> [open tag +  content + close tag] --> element
+<html lang="en"> --> here {lang="en"} this is attribute, so attributes are the additional information about the tag or tells about the functionality about tag 
+
+
+
+<!DOCTYPE html>   --> it tells about the version of html (html 5)
+<html lang="en"> --> start of html 
+<head> --> the upper most of html 
+    <title>Document</title> --> title name or tab name
+</head>
+<body> --> this the content part of html
+    
+</body>
+</html>

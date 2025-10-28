@@ -1,0 +1,28 @@
+h5{
+    font-size: xx-large;
+    color: cadetblue;
+    background-color: black;
+    text-align: center;
+}
+
+/* to slecet by id name we have to use # */
+
+#para1{
+    color: blueviolet;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightcoral;
+}
+
+/* to select html element by class name we have to use . */
+
+.paraclass2{
+    color: darkcyan;
+    font-size: xx-large;
+    background-color: lightgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: lightcyan;
+}
