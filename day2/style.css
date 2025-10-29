@@ -1,0 +1,30 @@
+#head1{
+    color:cornflowerblue ;
+    background-color: black;
+    font-size:40px;
+    font-family:cursive;
+}
+
+#block1{
+    background-color: aquamarine;
+    font-size: 30px;
+    display:inline;
+}
+#block2{
+    background-color: aqua;
+    font-size: 30px;
+    display: inline;
+}
+
+#inline1{
+    background-color: aqua;
+    font-size: 30px;
+    display: block;
+}
+
+
+#inline2{
+    background-color: aquamarine;
+    font-size: 30px;
+    display: block;
+}
