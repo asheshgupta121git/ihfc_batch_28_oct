@@ -1,0 +1,81 @@
+/* Reset default margins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Center everything on the page */
+body {
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+#container {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+}
+
+/* Input box and button */
+#container input {
+  width: 70%;
+  padding: 10px;
+  border: 2px solid #0984e3;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#container input:focus {
+  border-color: #6c5ce7;
+  box-shadow: 0 0 5px rgba(108, 92, 231, 0.3);
+}
+
+#container button {
+  padding: 10px 15px;
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+#container button:hover {
+  background-color: #74b9ff;
+}
+
+/* Weather info boxes */
+.weather, .tempreature, .city {
+  background: #dfe6e9;
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+/* Headings */
+.heading {
+  font-weight: 600;
+  color: #2d3436;
+}
+
+/* Values */
+.value {
+  color: #0984e3;
+  font-weight: 500;
+}
